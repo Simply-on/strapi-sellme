@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_shared_value_cards",
+  "info": { "displayName": "Value Card", "icon": "star" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "desc": { "type": "text", "required": true },
+    "icon": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
+  }
+}

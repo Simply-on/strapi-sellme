@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Home Page"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "hero_title_line1": { "type": "string", "required": true, "default": "Sustainability insights," },
+    "hero_title_line2": { "type": "string", "required": true, "default": "built for business" },
+    "hero_subtitle": { "type": "text" },
+    "hero_cta_label": { "type": "string", "default": "Request a demo" },
+    "stats": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.stat"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    },
+    "value_cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.value-card"
+    },
+    "testimonial_quote": { "type": "text" },
+    "testimonial_author": { "type": "string" },
+    "testimonial_role": { "type": "string" },
+    "meta_title": { "type": "string" },
+    "meta_description": { "type": "text" }
+  }
+}

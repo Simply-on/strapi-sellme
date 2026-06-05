@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "product_pages",
+  "info": {
+    "singularName": "product-page",
+    "pluralName": "product-pages",
+    "displayName": "Product Page"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "hero_title": { "type": "string", "required": true },
+    "hero_subtitle": { "type": "text" },
+    "hero_cta_label": { "type": "string", "default": "Get started" },
+    "hero_image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.feature"
+    },
+    "meta_title": { "type": "string" },
+    "meta_description": { "type": "text" }
+  }
+}

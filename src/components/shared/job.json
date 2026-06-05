@@ -1,0 +1,11 @@
+{
+  "collectionName": "components_shared_jobs",
+  "info": { "displayName": "Job", "icon": "briefcase" },
+  "options": {},
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "department": { "type": "string" },
+    "location": { "type": "string" },
+    "type": { "type": "enumeration", "enum": ["Full-time", "Part-time", "Contract", "Internship"] }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "collectionName": "components_shared_features",
+  "info": { "displayName": "Feature", "icon": "puzzle" },
+  "options": {},
+  "attributes": {
+    "id_label": { "type": "string" },
+    "title": { "type": "string", "required": true },
+    "desc": { "type": "text", "required": true }
+  }
+}

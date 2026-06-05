@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "careers_pages",
+  "info": {
+    "singularName": "careers-page",
+    "pluralName": "careers-pages",
+    "displayName": "Careers Page"
+  },
+  "options": { "draftAndPublish": true },
+  "attributes": {
+    "hero_title": { "type": "string", "required": true },
+    "hero_subtitle": { "type": "text" },
+    "intro_text": { "type": "text" },
+    "hero_image": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "job_listings": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.job"
+    },
+    "meta_title": { "type": "string" },
+    "meta_description": { "type": "text" }
+  }
+}
